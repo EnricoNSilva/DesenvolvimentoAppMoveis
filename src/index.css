@@ -1,0 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* Aplica a fonte globalmente e tira as margens brancas chatas que o navegador coloca por padrão */
+body {
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #242424;
+}
+
+/* Estilo base dos links da navegação */
+.nav-link {
+  color: white;
+  transition: color 0.3s ease; 
+}
+
+/* O que acontece quando o mouse passa por cima */
+.nav-link:hover {
+  color: #a0aec0; 
+}

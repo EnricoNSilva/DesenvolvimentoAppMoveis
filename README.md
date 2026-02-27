@@ -1,16 +1,41 @@
-# React + Vite
+# 📱 Laboratórios de Computação Móvel (React)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este repositório contém as práticas e exercícios desenvolvidos para a disciplina de **Desenvolvimento de Aplicativos Móveis** do curso de Ciência da Computação (FEI). 
 
-Currently, two official plugins are available:
+O projeto foi estruturado como uma *Single Page Application* (SPA) utilizando **React**, **Vite** e **React Router**, reunindo todos os laboratórios do semestre em uma única interface interativa e de fácil navegação.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Laboratórios Desenvolvidos
 
-## React Compiler
+* **[Lab 01] ECMAScript 6:** Revisão prática da sintaxe moderna do JavaScript. Implementação de classes, manipulação de contexto e métodos estáticos. *(A execução e os testes ocorrem na montagem do componente, com saída via console do navegador).*
+* **[Lab 02] JSX e CSS-in-JS:** Conversão de uma página Web HTML/CSS tradicional para a estrutura de componentes do React, aplicando estilização local através de objetos JavaScript.
+* **[Lab 03] Calculadora:** Desenvolvimento de uma calculadora funcional utilizando **Componentes de Classe**, focando na manipulação de estado (`this.state`) e tratamento de eventos sintéticos.
+* **[Lab 04] Jogo de Adivinhação:** Criação de um jogo interativo focado no uso de **Componentes Funcionais** e na aplicação de Hooks (`useState` e `useEffect`) para o controle do ciclo de vida da aplicação.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🛠️ Tecnologias Utilizadas
 
-## Expanding the ESLint configuration
+* **React:** Biblioteca principal para a construção das interfaces.
+* **Vite:** Ferramenta de *build* e servidor de desenvolvimento ultrarrápido.
+* **React Router DOM:** Gerenciamento das rotas e navegação da SPA.
+* **JavaScript (ES6+):** Lógica de programação e manipulação de componentes.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 💻 Como rodar o projeto localmente
+
+Para executar este projeto na sua máquina, certifique-se de ter o Node.js instalado.
+
+1. Clone este repositório:
+   ```bash
+   git clone [https://github.com/SEU_USUARIO/mobile-react-labs.git](https://github.com/SEU_USUARIO/mobile-react-labs.git)
+   ```
+2. Acesse a pasta do projeto:
+   ```bash
+   cd mobile-react-labs
+   ```
+3. Instale as dependências:
+   ```bash
+   npm install
+   ```
+4. Inicie o servidor de desenvolvimento:
+   ```bash
+   npm run dev
+   ```
+5. Acesse a aplicação no navegador clicando no link gerado no terminal.
